@@ -8,9 +8,12 @@
 ##############################################
 
 run(){
+    # checkout master
+    git checkout master
+    echo "Switch to master!"
     # pull the repo !
     git pull origin master
-    echo "Repo pulled !"  
+    echo "Repo pulled!"  
 
     echo "Running the model ..." 
     docker image rm -f genhack3  # delete the existing image

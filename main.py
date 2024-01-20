@@ -17,8 +17,6 @@ def simulate(noise):
 
     Parameters
     ----------
-    model : object
-        generator function
     noise : ndarray
         input of the generative model
     """
